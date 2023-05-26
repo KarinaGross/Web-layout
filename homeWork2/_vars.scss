@@ -3,7 +3,6 @@ $widthSite: 1140px;
 $colorText: #000;
 $backBlock: #222;
 $gapGrid: 30px;
-$thirdSite: (
-    $widthSite - $gapGrid*2) / 3;
+$thirdSite: calc(($widthSite - $gapGrid*2) / 3);
 $widthBurgerMenu: 232px;
 $backgroundBlack: #222224
