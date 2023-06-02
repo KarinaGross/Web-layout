@@ -72,7 +72,7 @@ a {
     visibility: hidden;
 
     &:checked~.nav {
-        right: -$widthBurgerMenu;
+        right: 0;
     }
 }
 
@@ -84,7 +84,7 @@ a {
     box-sizing: border-box;
     position: absolute;
     top: 75px;
-    // right: 0;
+    right: -$widthBurgerMenu;
     transition: all .3s;
     z-index: 10;
 
