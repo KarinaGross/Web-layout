@@ -197,6 +197,7 @@ input[type=text] {
   font-size: 11px;
   line-height: 13px;
   color: #000000;
+  border: none;
 }
 .registration-form__item_sex-checkbox {
   position: absolute;
@@ -381,4 +382,11 @@ input[type=text] {
 }
 .footer__svg:hover .path2 {
   fill: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .center {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }/*# sourceMappingURL=style.css.map */

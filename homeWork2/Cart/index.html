@@ -8,8 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Cart</title>
 </head>
@@ -83,7 +81,7 @@
                     </nav>
                 </div>
 
-                <div class="header__right-icon">
+                <div class="header__right-icon header__right-icon_none">
                     <a href="../Registration/index.html"><svg class="header__icon" width="29" height="29"
                             viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -92,7 +90,7 @@
                         </svg></a>
                 </div>
 
-                <div class="header__right-icon">
+                <div class="header__right-icon header__right-icon_none">
                     <a href="./index.html"><svg class="header__icon" width="32" height="29" viewBox="0 0 32 29"
                             fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -113,7 +111,7 @@
                     <div class="products">
                         <img class="products__img" src="../img/product-1.jpg" alt="product">
                         <div class="products-box">
-                            <p class="products-box__title">MANGO PEOPLE T-SHIRT</p>
+                            <a href="../Product/index.html" class="products-box__title">MANGO PEOPLE T-SHIRT</a>
                             <div class="products-box__text">
                                 <p>Price: <span class="products-box__text_price">$300</span></p>
                                 <p>Color: <span class="products-box__text_details">Red</span></p>
@@ -137,7 +135,7 @@
                     <div class="products">
                         <img class="products__img" src="../img/product-2.jpg" alt="product">
                         <div class="products-box">
-                            <p class="products-box__title">MANGO PEOPLE T-SHIRT</p>
+                            <a href="../Product/index.html" class="products-box__title">MANGO PEOPLE T-SHIRT</a>
                             <div class="products-box__text">
                                 <p>Price: <span class="products-box__text_price">$300</span></p>
                                 <p>Color: <span class="products-box__text_details">Red</span></p>
@@ -157,6 +155,10 @@
                             </svg>
                         </div>
 
+                    </div>
+                    <div class="cart-buttons">
+                        <button class="cart-buttons__item">Clear shopping cart</button>
+                        <button class="cart-buttons__item">Continue shopping</button>
                     </div>
                 </div>
                 <div class="cart__right">
@@ -190,11 +192,6 @@
                 </div>
             </div>
 
-            <div class="cart-buttons center">
-                <button class="cart-buttons__item">Clear shopping cart</button>
-                <button class="cart-buttons__item">Continue shopping</button>
-            </div>
-
             <div class="figure-and-form center">
                 <figure class="figure-and-form__figure">
                     <img src="../img/women.png" alt="photo">
@@ -215,7 +212,7 @@
         <footer class="footer center">
             <div class="footer__left">© 2022 Brand All Rights Reserved.</div>
             <div class="footer__right">
-                <svg class="footer__svg" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                <svg class="footer__svg footer__svg_none" width="32" height="32" viewBox="0 0 32 32" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path class="path1" d="M31.4506 0H0V32H31.4506V0Z" fill="white" />
                     <path class="path2"
@@ -223,7 +220,7 @@
                         fill="black" />
                 </svg>
 
-                <svg class="footer__svg" width="33" height="32" viewBox="0 0 33 32" fill="none"
+                <svg class="footer__svg footer__svg_none" width="33" height="32" viewBox="0 0 33 32" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path class="path1" d="M32.1883 0H0.737671V32H32.1883V0Z" fill="white" />
                     <path class="path2"

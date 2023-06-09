@@ -208,6 +208,7 @@ input[type="text"] {
             font-size: 11px;
             line-height: 13px;
             color: #000000;
+            border: none;
         }
 
         &_sex-checkbox {
@@ -424,5 +425,12 @@ input[type="text"] {
 
     &__svg:hover .path2 {
         fill: white;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .center {
+        padding-left: 2%;
+        padding-right: 2%;
     }
 }
