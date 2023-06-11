@@ -161,7 +161,8 @@ input[type="text"] {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 128px;
+    // gap: 128px;
+    gap: 7vw;
     margin-bottom: 96px;
 }
 
@@ -174,6 +175,8 @@ input[type="text"] {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        min-width: 360px;
+        max-width: 360px;
 
         &_title {
             font-style: normal;
@@ -432,5 +435,40 @@ input[type="text"] {
     .center {
         padding-left: 2%;
         padding-right: 2%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .registration-form {
+        &__item {
+            min-width: 360px;
+        }
+    }
+
+    .registration-info {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .figure-and-form {
+        flex-direction: column;
+        padding-top: 64px;
+        padding-bottom: 219px;
+
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .header__right-icon_none {
+        display: none;
+    }
+
+    .registration-box {
+        flex-direction: column;
+    }
+
+    .footer__svg_none {
+        display: none;
     }
 }
